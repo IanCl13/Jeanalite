@@ -17,12 +17,15 @@ img {
     margin-right: auto;
     max-height: 50%;
     max-width: 50%;
+    padding-top: 20px;
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    height: 30px;
     width:100%;
     background-color: black;
-    overflow: hidden;
 }
 
 .navbar i {
@@ -157,6 +160,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    overflow: hidden;
 }
 
 footer p {
