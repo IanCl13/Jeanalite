@@ -1,7 +1,22 @@
+/*-------------------------------------index*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#logo {
+    background-color :black;
+}
+
 img {
-    background-color: black;
-    max-width: 20%;
-    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50%;
+    max-width: 50%;
 }
 
 .navbar {
@@ -22,6 +37,10 @@ img {
     color: #9d34ed;
 }
 
+.navbar a:visited {
+  color: #9d34ed;
+}
+
 .navbar a:hover{
   color :white;
   text-decoration: none;
@@ -31,7 +50,6 @@ img {
     color: white;
 }
 
-
 ul {
     display: inline;
     margin: 0;
@@ -39,23 +57,13 @@ ul {
     list-style-type: none;
 }
 
-
 li {
     display: inline-block;
     padding: 0 0 1em 0;
 }
 
-h1 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 0;    
-    padding-top: 30px;
-
-}
-
 #news a {
     text-decoration: none;
-
 }
 
 #news {
@@ -70,18 +78,71 @@ h1 {
     text-align: center;
 }
 
+#news_heading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;    
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+
+/*-------------------------------------video*/
+
 #video {
     background-color: black;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: auto;
     width: auto
 }
 
+/*-------------------------------------newsletter*/
+
 #newsletter {
     background-color: #9d34ed;
-    height: 200px;
+    height: auto;
     width: auto;
 }
+
+#newsletter_heading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;    
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+form {
+    padding: 20px;
+    text-align: center;
+}
+
+input[type=text], input[type=email] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: black; 
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*-------------------------------------footer*/
 
 footer {
   background-color: black;
@@ -95,4 +156,122 @@ footer a {
 
 footer p {
     display: inline;
+}
+
+/*-------------------------------------gallery*/
+
+#gallery {
+    background-color: black;
+    color: #9d34ed;
+}
+
+#gallery_heading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;    
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*-------------------------------------shows*/
+#show_container {
+    background-color: black;  
+}
+
+#show_heading {
+    color: #9d34ed;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;    
+    padding-top: 0;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.show_list {
+    display: flex;
+    text-transform: uppercase;
+    background-color: black;
+    color: #9d34ed;
+    padding-top:20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: solid #9d34ed;  
+}
+
+.show_date {
+    display: inline-block;
+    margin: auto;
+}
+
+.show_venue {
+    display: inline-block;
+    margin: auto;
+}
+
+.show_location {
+    display: inline-block;
+    margin: auto;
+}
+
+.show_tickets {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.show_tickets button {
+  background-color: #9d34ed; 
+  border: none;
+  color: black;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: uppercase; 
+}
+
+.show_tickets button:hover {
+    color: white;
+}
+
+#show_top_link {
+    background-color: black;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9d34ed;
+    text-decoration: none;
+    padding: 20px 0 10px;
 }
