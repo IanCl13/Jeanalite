@@ -1,10 +1,12 @@
 /*-------------------------------------index*/
 body {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
 }
 
 #logo {
