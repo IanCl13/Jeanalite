@@ -10,6 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        function myFunction() {
+  var x = document.getElementById("nav_links");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+    </script>
     <title>Jeanalite Music</title>
 </head>
 <body>
@@ -29,6 +39,7 @@
                 <a href="gallery.html" target="_blank">Gallery</a>
                 <a href="#newsletter">Newsletter</a>
                 <a title="Coming soon!" style="color:#9d34ed;">Store</a>
+                <a href="javascript:void(0);" class="burger" onclick="myFunction()"><i class="fa fa-bars"></i></a>
             </div>
         </div>
         <div id="logo">
