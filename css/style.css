@@ -125,7 +125,12 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto;
-    width: auto
+    width: auto;
+}
+
+iframe {
+    border: 5px #9d34ed solid;
+    border-radius: 25px;
 }
 
 /*-------------------------------------newsletter*/
@@ -143,6 +148,11 @@ img {
     margin: 0;    
     padding-top: 30px;
     letter-spacing: 1px;
+}
+
+#newsletter p {
+    padding-top: 10px;
+    text-align: center;
 }
 
 form {
@@ -219,7 +229,8 @@ footer p {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 
 @media screen and (max-width: 800px) {
