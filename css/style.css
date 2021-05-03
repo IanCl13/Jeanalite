@@ -85,16 +85,6 @@ img {
 }
 
 /*-------------------------------------news*/
-
-#news a {
-    text-decoration: none;
-    color: white;
-} 
-
-#news a:hover {
-    color: blue;
-}
-
 #news {
     background-color: #9d34ed;
     height: auto;
@@ -102,9 +92,13 @@ img {
     overflow: hidden;
 }
 
-#news p {
-    padding-top: 10px;
-    text-align: center;
+#news a {
+    text-decoration: none;
+    color: white;
+} 
+
+#news a:hover {
+    color: lightskyblue;
 }
 
 #news_heading {
@@ -115,10 +109,12 @@ img {
     padding-top: 30px;
     letter-spacing: 1px;
 }
-
+#news p {
+    padding-top: 10px;
+    text-align: center;
+}
 
 /*-------------------------------------video*/
-
 #video {
     background-color: black;
     text-align: center;
@@ -134,7 +130,6 @@ iframe {
 }
 
 /*-------------------------------------newsletter*/
-
 #newsletter {
     background-color: #9d34ed;
     height: auto;
@@ -165,7 +160,6 @@ input[type=text], input[type=email] {
   padding: 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
 }
 
 input[type=submit] {
@@ -182,16 +176,10 @@ input[type=submit] {
 }
 
 /*-------------------------------------footer*/
-
 footer {
   background-color: black;
   color: grey;
   text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    overflow: hidden;
 }
 
 footer p {
@@ -199,7 +187,6 @@ footer p {
 }
 
 /*-------------------------------------gallery*/
-
 #gallery {
     background-color: black;
     color: #9d34ed;
