@@ -83,6 +83,16 @@ img {
     text-align: left;
   }
 }
+/*-------------------------------------bio*/
+#bio {
+    background-color: black;
+    color: #9d34ed;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+}
 
 /*-------------------------------------news*/
 #news {
